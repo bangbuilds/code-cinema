@@ -2,7 +2,7 @@
   "name": "code-cinema-template",
   "version": "1.0.0",
   "description": "Code-rendered 3D short film template (Three.js + deterministic frame export + synthesized audio)",
-  "author": "",
+  "author": "bangbuilds",
   "main": "index.js",
   "scripts": {
     "dev": "vite --port 5175",
