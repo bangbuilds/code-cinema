@@ -2,13 +2,13 @@
   "name": "code-cinema-template",
   "version": "1.0.0",
   "description": "Code-rendered 3D short film template (Three.js + deterministic frame export + synthesized audio)",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "dev": "vite --port 5175",
     "render": "zsh scripts/render.sh"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {

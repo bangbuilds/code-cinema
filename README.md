@@ -69,6 +69,10 @@ template/           可运行的模板（12 秒 demo）· runnable starter
 examples/           两集的完整源码 · both films' sources
 ```
 
+## 作者 · Author
+
+[bangbuilds](https://github.com/bangbuilds)
+
 ## 致谢 · Credits
 
 Made with Claude Opus 5.5 in Claude Code. [three.js](https://threejs.org) (MIT). Fonts via [@fontsource](https://fontsource.org): Noto Sans SC, JetBrains Mono, Inter (SIL Open Font License). 视频里出现的品牌只用文字提及，没有使用任何 logo。
