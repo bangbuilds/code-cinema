@@ -734,6 +734,8 @@ export function createFilm(renderer) {
     const fA = seg(t, 83.8, 84.7) * (1 - seg(t, 87.3, 88.2));
     hud.fade({ text: '第 101 件。', x: 540, y: 955, font: `700 62px ${FONT_CN}`, color: '#8c8c8c', alpha: fA });
     hud.fade({ text: 'Item No. 101.', x: 540, y: 1015, font: `500 30px ${FONT_EN}`, color: '#6f6f6f', alpha: fA * 0.95 });
+    const sA = seg(t, 85.0, 85.8) * (1 - seg(t, 88.6, 89.3));
+    hud.fade({ text: 'by bangbuilds', x: 540, y: 1500, font: `500 34px ${FONT_EN}`, color: '#7d7d7d', alpha: sA });
     hud.end();
 
     // ── 后期

@@ -334,8 +334,7 @@ export function createFilm(renderer) {
     hud.fade({ text: '剩余 · LEFT', x: 1010, y: 160, font: `500 22px ${FONT_CN}`, color: '#8a8a8a', align: 'right', alpha: cA });
     hud.odometer({ value: left(t), digits: 3, x: 1010, y: 224, font: `500 56px ${FONT_MONO}`, align: 'right', alpha: cA, scale: bump(t - lastEat, 0.25, 0.18) });
     const cr = seg(t, 77.6, 78.4) * (1 - seg(t, 81.0, 81.7));
-    hud.fade({ text: '这条视频的画面、配乐、字幕，全部由 Claude Opus 5.5 写代码完成。', x: 540, y: 1560, font: `500 30px ${FONT_CN}`, color: '#a9a9a9', alpha: cr });
-    hud.fade({ text: 'Every frame, note and subtitle in this video was coded by Claude Opus 5.5.', x: 540, y: 1606, font: `400 24px ${FONT_EN}`, color: '#8a8a8a', alpha: cr });
+    hud.fade({ text: 'by bangbuilds', x: 540, y: 1560, font: `500 34px ${FONT_EN}`, color: '#9a9a9a', alpha: cr });
     hud.end();
 
     post.uniforms.uScrim.value = 0.6 * (1 - seg(t, 4.6, 5.6)) + 0.4 * seg(t, 47.2, 47.7) * (1 - seg(t, 53.2, 54.0)) + 0.25;
