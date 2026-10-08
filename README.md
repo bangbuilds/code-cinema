@@ -17,7 +17,7 @@ A Claude Code skill plus a runnable template project.
 
 ## 它能做什么 · What you get
 
-- **完整流程**：参考片拆解 → 方案 → 10 秒样片定画风 → 全片 → 逐帧渲染（8 倍运动模糊）→ 代码合成配乐 → 封面 → 抽帧质检
+- **完整流程**：给一个话题（比如《恐龙灭绝史》）→ 方案 → 10 秒样片定画风 → 全片 → 逐帧渲染（8 倍运动模糊）→ 代码合成配乐 → 封面 → 抽帧质检
 - **引擎**：时间线（计数器、年份、版式、字幕、音效事件）、镜头路径、中英双语字幕层（打字机、里程表数字）、后期（辉光、颗粒、暗角、色差）
 - **素材全部程序化**：50 多种 3D 旧物（座机、BP 机、随身听、胶卷……）、100 多个 App 图标、一部带实时主屏幕的手机
 - **配乐也是代码**：FM 音乐盒、电钢琴、铺底、鼓组、上扬音效，按画面事件逐个对齐
@@ -29,8 +29,8 @@ A Claude Code skill plus a runnable template project.
 git clone https://github.com/bangbuilds/code-cinema ~/.claude/skills/code-cinema
 ```
 
-然后在 Claude Code 里直接说，比如："参考这个视频，帮我做一个《键盘进化史》"。
-Then just ask Claude Code, e.g. "make a 90-second video like this one about the history of keyboards".
+然后在 Claude Code 里给一个话题就行，比如："帮我做一个《恐龙灭绝史》"。有喜欢的视频也可以附上链接，它会先拆出节奏和结构再照着做。
+Then just give Claude Code a topic, e.g. "make a 90-second video about the extinction of the dinosaurs". You can add a link to a video you like as a reference.
 
 ## 不用 Claude 也能跑 · Quick start
 
